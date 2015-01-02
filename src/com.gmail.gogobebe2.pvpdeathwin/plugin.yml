@@ -1,0 +1,16 @@
+name: PVPDeathWin
+version: 1.0
+main: com.gmail.gogobebe2.pvpdeathwin.PVPDeathWin
+description: A death match plugin.
+ 
+commands:
+    pvp:
+        usage: /<command>
+        description: Main plugin command.
+       
+permissions:
+    pvp.use:
+        description: Is allowed to use this plugin's admin commands.
+        default: op
+
+    
