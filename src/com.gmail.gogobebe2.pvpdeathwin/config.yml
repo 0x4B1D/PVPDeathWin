@@ -1,2 +1,5 @@
+deathLimit: 10
 redTeamDeaths: 0
 blueTeamDeaths: 0
+redTeamPlayers:
+blueTeamPlayers:

@@ -1,5 +1,5 @@
 name: PVPDeathWin
-version: 1.0
+version: 1.5
 main: com.gmail.gogobebe2.pvpdeathwin.PVPDeathWin
 description: A death match plugin.
  
@@ -7,6 +7,15 @@ commands:
     pvp:
         usage: /<command>
         description: Main plugin command.
+    teams:
+        usage: /<command>
+        description: Displays each teams players.
+    dlimit:
+        usage: /<command>
+        description: Set death limit to lose.
+    reset:
+            usage: /<command>
+            description: Reset Red & Blue players and scores.
        
 permissions:
     pvp.use:
